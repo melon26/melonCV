@@ -1409,3 +1409,76 @@ window.Chart = function(context){
 	  };
 }
 
+$(document).ready(function(){
+        var doughnutData = [
+            {
+                value: 90,
+                color:"#F79F24"
+            },
+            {
+                value : 10,
+                color : "#ecf0f1"
+            }
+        ];
+        var myDoughnut = new Chart(document.getElementById('sketch').getContext("2d")).Doughnut(doughnutData);
+    
+        var doughnutData = [
+            {
+                value: 90,
+                color:"#3498DB"
+            },
+            {
+                value : 10,
+                color : "#ecf0f1"
+            }
+        ];
+        var myDoughnut = new Chart(document.getElementById('photoshop').getContext("2d")).Doughnut(doughnutData);
+            
+        var doughnutData = [
+            {
+                value: 65,
+                color:"#984A59"
+            },
+            {
+                value : 35,
+                color : "#ecf0f1"
+            }
+        ];
+        var myDoughnut = new Chart(document.getElementById('illustrator').getContext("2d")).Doughnut(doughnutData);
+            
+        var doughnutData = [
+            {
+                value: 90,
+                color:"#FB5660"
+            },
+            {
+                value : 10,
+                color : "#ecf0f1"
+            }
+        ];
+        var myDoughnut = new Chart(document.getElementById('html').getContext("2d")).Doughnut(doughnutData);
+            
+        var doughnutData = [
+            {
+                value: 90,
+                color:"#7577CD"
+            },
+            {
+                value : 10,
+                color : "#ecf0f1"
+            }
+        ];
+        var myDoughnut = new Chart(document.getElementById('bootstrap').getContext("2d")).Doughnut(doughnutData);
+            
+        var doughnutData = [
+            {
+                value: 50,
+                color:"#1ABC9C"
+            },
+            {
+                value : 50,
+                color : "#ecf0f1"
+            }
+        ];
+        var myDoughnut = new Chart(document.getElementById('jquery').getContext("2d")).Doughnut(doughnutData);
+        });
