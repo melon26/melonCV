@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/* Size */
+$single: 8px;
+
+/* Color */
+$yellow: #FFC832;
+
+/* mixin */
+@mixin overflow-scrolling($value){
+	overflow-scrolling: $value;
+	-o-overflow-scrolling: $value;
+    -ms-overflow-scrolling: $value;
+	-moz-overflow-scrolling: $value;
+	-webkit-overflow-scrolling: $value;
+}
+
+html, body {
+    @include overflow-scrolling(touch);
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
