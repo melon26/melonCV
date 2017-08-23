@@ -1424,7 +1424,7 @@ $(document).ready(function(){
     
         var doughnutData = [
             {
-                value: 90,
+                value: 80,
                 color:"#3498DB"
             },
             {
