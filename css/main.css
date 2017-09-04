@@ -278,7 +278,8 @@ sm {
 
  /* Download Icon */
 .downloadIcon {
-    width: 110px;
+    width: 100px;
     height: auto;
-    margin-right: 16px;
+    margin-bottom: 8px;
+    margin-right: 8px;
 }
